@@ -1,0 +1,19 @@
+{
+  "name": "myopic",
+  "version": "1.0.0-0",
+  "description": "A function for crafting thoughts that don't age well",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chantastic/myopic.git"
+  },
+  "author": "Michael Chan <mijoch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantastic/myopic/issues"
+  },
+  "homepage": "https://github.com/chantastic/myopic#readme"
+}
