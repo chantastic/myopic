@@ -1,6 +1,6 @@
 {
   "name": "myopic",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "description": "A function for crafting thoughts that don't age well",
   "main": "dist/foo.js",
   "umd:main": "dist/foo.umd.js",
