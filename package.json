@@ -2,9 +2,14 @@
   "name": "myopic",
   "version": "1.0.0-0",
   "description": "A function for crafting thoughts that don't age well",
-  "main": "index.js",
+  "main": "dist/foo.js",
+  "umd:main": "dist/foo.umd.js",
+  "module": "dist/foo.m.js",
+  "source": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/chantastic/myopic/issues"
   },
-  "homepage": "https://github.com/chantastic/myopic#readme"
+  "homepage": "https://github.com/chantastic/myopic#readme",
+  "dependencies": {
+    "microbundle": "^0.4.4"
+  }
 }
