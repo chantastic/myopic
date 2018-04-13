@@ -11,6 +11,14 @@ myopic("The new Context API", "Redux")
 // => "The new Context API replaces Redux. I don't see any reason to use Redux anymore."
 ```
 
+Here's the code that powers it:
+
+```js
+function myopic(thingIveJustLearned, thingIveUsed) {
+  return `${thingIveJustLearned} replaces ${thingIveUsed}. I don't see any reason to use ${thingIveUsed} anymore.`;
+}
+```
+
 ## installation
 
 ### Node
